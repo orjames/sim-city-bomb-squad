@@ -1,3 +1,44 @@
-body{
+body {
   text-align: center;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.unexploded {
+  background-image: url("./img/simcity.jpg");
+}
+
+.red {
+  color: red;
+}
+.green {
+  color: #00a80e;
+}
+
+.exploded {
+  background-image: url("./img/explosion.jpg");
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.5em;
+  display: inline-block;
+  padding: 0.4em 1.1em 1.1em 1.1em;
+  margin: 5em 0em;
+} 
+
+button {
+  border-radius: 0.5em;
+  font-size: 0.7em;
+  letter-spacing: 0.2em;
+  font-variant: small-caps;
+  width: 13em;
+  color: white;
+  font-weight: 100;
+  background-color: #838282;
+  border-color: #646262;
 }
